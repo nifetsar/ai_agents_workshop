@@ -18,8 +18,8 @@ with st.sidebar:
     st.markdown("**Env needed:** `LLM_API_KEY` (and optionally `LLM_BASE_URL`, `LLM_MODEL`).")
 
 prompt = st.text_input(
-    "What should the agent do?",
-    "Plan 3 steps to learn GenAI safely and compute 2*(10+5). Also search 'responsible AI checklist'."
+    "Spread your wild thoughts here",
+    "How can i help you."
 )
 
 if st.button("Run"):
